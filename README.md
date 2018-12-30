@@ -19,3 +19,33 @@ bottomLh: 38,              //  弹框底部的line-height
 bottomFontSize: 14,        //  弹框底部的font-size
 borderColor: '#eee'        //  弹框的border color
 ```
+## 引用方式
+```
+<script src="/js/popup.js"></script>
+```
+## 调用方式
+```
+<script>
+  let popup = new Popup({
+  	title: '是否确认此操作'，
+  	...
+  })
+
+  // 显示
+  function show() {
+  	popup.show
+  }
+
+  // 确认按钮监听
+  popup.on('confirm', () => {
+  	...
+    //  点击确认按钮后执行的逻辑
+  })
+
+  // 取消按钮监听
+  popup.on('cancel', () => {
+  	...
+    //  点击取消按钮后执行的逻辑
+  })
+</script>
+```
