@@ -1,7 +1,7 @@
 # popup
 
-弹框插件，可自定义样式
-
+## 弹框插件，可自定义样式
+```
 title: 'title',             // title
 confirmText: '确认',        //  确认按钮文本
 cancelText: '取消',         //  取消按钮文本
@@ -18,3 +18,4 @@ titleColor: 'black',       //  title的color
 bottomLh: 38,              //  弹框底部的line-height
 bottomFontSize: 14,        //  弹框底部的font-size
 borderColor: '#eee'        //  弹框的border color
+```
