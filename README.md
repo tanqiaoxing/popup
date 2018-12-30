@@ -27,25 +27,25 @@ borderColor: '#eee'        //  弹框的border color
 ```
 <script>
   let popup = new Popup({
-  title: '是否确认此操作'，
-  ...
+   title: '是否确认此操作'，
+   ...
   	// 自定义样式
   })
 
   // 显示
   function show() {
-  popup.show
+   popup.show
   }
 
   // 确认按钮监听
   popup.on('confirm', () => {
-  ...
+   ...
     //  点击确认按钮后执行的逻辑
   })
 
   // 取消按钮监听
   popup.on('cancel', () => {
-  ...
+   ...
     //  点击取消按钮后执行的逻辑
   })
 </script>
